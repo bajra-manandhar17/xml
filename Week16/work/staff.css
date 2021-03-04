@@ -1,0 +1,32 @@
+Staff {
+   margin: 15px
+}
+
+Notes {
+   display: block;
+   width: 500px;
+   color: red;
+   padding: 10px;
+   font-size: 10pt;
+   border: 2px solid red;
+   margin-bottom: 30px
+}
+
+Employee {
+   display: block;
+   width: 500px;
+   background-color: ivory;
+   font-size: 10pt;
+   border: 1px solid black;
+   padding: 5px;
+   margin-top: 5px
+}
+
+Status,
+Department,
+Years,
+SS,
+Health,
+Salary {
+   display: block
+}

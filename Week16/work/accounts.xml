@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The purpose of this document is to store the details of client
+Name: Bajra Manandhar
+Date: March 1 2020
+-->
+<?xml-stylesheet href="delton.css" type="text/css"?>
+
+<Accounts>
+   <Client ID="CS0001">
+      <Name>
+         <First>Bajra</First>
+         <Last>Manandhar</Last>
+      </Name>
+      <Address>
+         <Street>StreetName</Street>
+         <City>Kathmandu</City>
+         <State>3</State>
+         <Zip>44600</Zip>
+      </Address>
+      <Phone>980000000</Phone>
+      <E-mail>bajramanandhar@gaaa.com</E-mail>
+      <Account_Total>55555555555</Account_Total>
+   </Client>
+   <Client ID="CS0002">
+      <Name>
+         <First>Kiran</First>
+         <Last>Khadka</Last>
+      </Name>
+      <Address>
+         <Street>Kiran Street</Street>
+         <City>Kathmandu</City>
+         <State>35</State>
+         <Zip>44610</Zip>
+      </Address>
+      <Phone>980000055</Phone>
+      <E-mail>kiranman@gaaa.com</E-mail>
+      <Account_Total>500</Account_Total>
+   </Client>
+   <Client ID="CS0003">
+      <Name>
+         <First>Subhgyan</First>
+         <Last>Adhakari</Last>
+      </Name>
+      <Address>
+         <Street>Subi Street</Street>
+         <City>London</City>
+         <State>1</State>
+         <Zip>44550</Zip>
+      </Address>
+      <Phone>980050055</Phone>
+      <E-mail>testmail@gaaa.com</E-mail>
+      <Account_Total>5500</Account_Total>
+   </Client>
+   <Client ID="CS0004">
+      <Name>
+         <First>Abhigyan</First>
+         <Last>Adhakair</Last>
+      </Name>
+      <Address>
+         <Street>Abhi Street</Street>
+         <City>US</City>
+         <State>355</State>
+         <Zip>444410</Zip>
+      </Address>
+      <Phone>9800000555</Phone>
+      <E-mail>testmail4@gaaa.com</E-mail>
+      <Account_Total>50000</Account_Total>
+   </Client>
+   <Client ID="CS5308">
+      <Name>
+         <First>Cindy</First>
+         <Last>Kaufmann</Last>
+      </Name>
+      <Address>
+         <Street>31 Alice Avenue</Street>
+         <City>US</City>
+         <State>Delton, MN</State>
+         <Zip>89011</Zip>
+      </Address>
+      <Phone>(532) 555-7212</Phone>
+      <E-mail>cka@ispnet.net</E-mail>
+      <Account_Total>$125,000</Account_Total>
+   </Client>
+
+   <Client ID="CS5250">
+      <Name>
+         <First>Lee</First>
+         <Last>Hayes</Last>
+      </Name>
+      <Address>
+         <Street>451 Unwin Ct.</Street>
+         <City>Jasper</City>
+         <State>MN</State>
+         <Zip>89381</Zip>
+      </Address>
+      <Phone>(534) 555-9082</Phone>
+      <E-mail>leehayes@clarion.net</E-mail>
+      <Account_Total>$118,000</Account_Total>
+   </Client>
+
+   <Client ID="CS5981">
+      <Name>
+         <First>Jane</First>
+         <Last>Wilson</Last>
+      </Name>
+      <Address>
+         <Street>87 Hilltop Drive</Street>
+         <City>Jasper</City>
+         <State>MN</State>
+         <Zip>89381</Zip>
+      </Address>
+      <Phone>(534) 555-7493</Phone>
+      <E-mail>jwilson@cls.net</E-mail>
+      <Account_Total>$95,000</Account_Total>
+   </Client>
+
+   <Client ID="CS5510">
+      <Name>
+         <First>Allison</First>
+         <Last>Steubahl</Last>
+      </Name>
+      <Address>
+         <Street>891 Lindon Lane</Street>
+         <City>Delton</City>
+         <State>MN</State>
+         <Zip>89011</Zip>
+      </Address>
+      <Phone>(532) 555-4313</Phone>
+      <E-mail>asteubahl@yulit.com</E-mail>
+      <Account_Total>$115,000</Account_Total>
+   </Client>
+
+   <Client ID="CS5821">
+      <Name>
+         <First>Howard</First>
+         <Last>Li</Last>
+      </Name>
+      <Address>
+         <Street>4312 East Oak Avenue</Street>
+         <City>Youngston</City>
+         <State>MN</State>
+         <Zip>89318</Zip>
+      </Address>
+      <Phone>(532) 555-3921</Phone>
+      <E-mail>how@li.com</E-mail>
+      <Account_Total>$50,000</Account_Total>
+   </Client>
+
+   <Client ID="CS5482">
+      <Name>
+         <First>Uma</First>
+         <Last>Thurston</Last>
+      </Name>
+      <Address>
+         <Street>25 Longton Lane</Street>
+         <City>Delton</City>
+         <State>MN</State>
+         <Zip>89011</Zip>
+      </Address>
+      <Phone>(531) 555-8730</Phone>
+      <E-mail>thurston@mail.com</E-mail>
+      <Account_Total>$100,000</Account_Total>
+   </Client>
+
+   <Client ID="CS5811">
+      <Name>
+         <First>Ashley</First>
+         <Last>Wilkes</Last>
+      </Name>
+      <Address>
+         <Street>321 Ashburn</Street>
+         <City>Jasper</City>
+         <State>MN</State>
+         <Zip>89831</Zip>
+      </Address>
+      <Phone>(532) 555-1181</Phone>
+      <E-mail>wilkes_alan@wuilt.edu</E-mail>
+      <Account_Total>$25,000</Account_Total>
+   </Client>
+
+   <Client ID="CS5314">
+      <Name>
+         <First>Tom</First>
+         <Last>Thomas</Last>
+      </Name>
+      <Address>
+         <Street>Rigel Avenue</Street>
+         <City>Drake</City>
+         <State>MN</State>
+         <Zip>89411</Zip>
+      </Address>
+      <Phone>(531) 555-8311</Phone>
+      <E-mail>tthomas@mail.com</E-mail>
+      <Account_Total>$71,000</Account_Total>
+   </Client>
+
+   <!--  <Client ID="CS">
+      <Name>
+         <First></First>
+         <Last></Last>
+      </Name>
+      <Address>
+         <Street></Street>
+         <City></City>
+         <State></State>
+         <Zip></Zip>
+      </Address>
+      <Phone></Phone>
+      <E-mail></E-mail>
+      <Account_Total></Account_Total>
+   </Client>-->
+</Accounts>

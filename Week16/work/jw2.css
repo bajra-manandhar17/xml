@@ -1,0 +1,69 @@
+rare_items {
+   display: block;
+   border: 3px solid black;
+   width: 550px;
+   margin: 5px;
+   padding-bottom: 10px
+}
+
+title {
+   display: block;
+   width: 500px;
+   font-family: Arial, Helvetica, Sans-serif;
+   font-size: 18pt;
+   margin-left: 20px
+}
+
+subtitle {
+   display: block;
+   width: 500px;
+   font-family: Arial, Helvetica, Sans-serf;
+   font-size: 14pt;
+   font-style: italic;
+   margin-left: 20px
+}
+
+artist {
+   display: block;
+   width: 500px;
+   font-family: Arial, Helvetica, Sans-serif;
+   font-size: 10pt;
+   color: blue;
+   text-align: right;
+   margin-left: 20px;
+   margin-top: 10px
+}
+
+record {
+   display: block;
+   width: 500px;
+   font-family: Arial, Helvertica, Sans-serif;
+   font-size: 14pt;
+   color: blue;
+   border-bottom: 3px solid blue;
+   margin-left: 20px
+}
+
+year,
+label,
+condition,
+price,
+available_for {
+   display: list-item;
+   font-family: Times New Roman, Times, Serif;
+   font-size: 12pt;
+   list-style-type: square;
+   margin-left: 50px
+}
+
+message {
+   display: block;
+   width: 500px;
+   font-family: Times New Roman, Times, Serif;
+   font-size: 9pt;
+   color: green;
+   border-top: 2px solid green;
+   padding-top: 5px;
+   margin-left: 20px;
+   margin-top: 50px
+}

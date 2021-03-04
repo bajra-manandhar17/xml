@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- THIS IS PROLOGUE-->
+<?xml-stylesheet href="file.css" type="text/css"?>
+<!-- Root Tag-->
+<students>
+   <student id="1">
+      <name>Bajra Manandhar</name>
+      <faculty>Computing</faculty>
+   </student>
+   <student>
+      <name>Kiran Khadka</name>
+      <faculty>Computing</faculty>
+   </student>
+</students>

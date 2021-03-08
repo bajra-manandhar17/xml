@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="staff.css" type="text/css"?>
-<staff>
+<Staff>
    <notes>
       <![CDATA[
    There are over 85 employees at Biotech. This document contains data on each employee's
@@ -169,4 +169,4 @@
       <Employee16:Salary>$52,500</Employee16:Salary>
    </Employee16:emp>
 
-</staff>
+</Staff>

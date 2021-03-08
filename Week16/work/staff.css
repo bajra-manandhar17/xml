@@ -1,5 +1,23 @@
+@namespace Employee1 url(https://www.emp1.com);
+@namespace Employee2 url(https://www.emp2.com);
+@namespace Employee3 url(https://www.emp3.com);
+@namespace Employee4 url(https://www.emp4.com);
+@namespace Employee5 url(https://www.emp5.com);
+@namespace Employee6 url(https://www.emp6.com);
+@namespace Employee7 url(https://www.emp7.com);
+@namespace Employee8 url(https://www.emp8.com);
+@namespace Employee9 url(https://www.emp9.com);
+@namespace Employee10 url(https://www.emp10.com);
+@namespace Employee11 url(https://www.emp11.com);
+@namespace Employee12 url(https://www.emp12.com);
+@namespace Employee13 url(https://www.emp13.com);
+@namespace Employee14 url(https://www.emp14.com);
+@namespace Employee15 url(https://www.emp15.com);
+@namespace Employee16 url(https://www.emp16.com);
+
+
 Staff {
-   margin: 15px
+   margin: 15px;
 }
 
 Notes {
@@ -12,7 +30,7 @@ Notes {
    margin-bottom: 30px
 }
 
-Employee {
+emp {
    display: block;
    width: 500px;
    background-color: ivory;

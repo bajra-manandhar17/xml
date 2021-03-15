@@ -1,24 +1,28 @@
-contributor 
+/* Bajra Manandhar March 15 2021 */
+
+@namespace cont url(http://www.epacmo.org/contrib);
+
+cont\:contributor 
       {display: block; margin: 10px 0px 10px 30px; width: 600px;
        border: 1px dashed black; padding: 5px; 
        background-color: rgb(233,244,233)}
 
-first, last 
+cont\:first, cont\:last
       {font-weight: bold}
 
-address 
+cont\:address 
       {display: block; margin-left: 10px}
 
-street 
+cont\:street 
       {display: block}
 
-zip 
+cont\:zip 
       {padding-left: 5px}
 
-phone 
+cont\:phone 
       {display: block}
 
-amount 
+cont\:amount 
       {display: block}
 
 

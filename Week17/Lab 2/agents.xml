@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <agents>
    <agent id="a01" list="c001,c002,c004">
@@ -11,4 +11,5 @@
       <last>Yates</last>
       <amount>$375</amount>
    </agent>
+
 </agents>

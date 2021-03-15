@@ -1,0 +1,6 @@
+<!ELEMENT employees2 (employee+)>
+<!ELEMENT employee (name,department,address?,phone*)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT department (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>

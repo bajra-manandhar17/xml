@@ -1,0 +1,16 @@
+<!DOCTYPE employees2 SYSTEM "employees.dtd">
+
+<employees2>
+   <employee>
+      <name>Bajra Manandhar</name>
+      <department>IT Department</department>
+      <address>Ghar</address>
+   </employee>
+
+   <employee>
+      <name>Shubigyan Adhikari</name>
+      <department>Business Department</department>
+      <phone>1234567</phone>
+      <phone>67888956</phone>
+   </employee>
+</employees2>

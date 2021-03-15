@@ -1,0 +1,7 @@
+body        {margin: 0px}
+
+#logo {width: 100%; background-color: white; border-bottom: 1px solid rgb(0,128,0) }
+h1 {font-family: Arial, Helvetica, sans-serif; letter-spacing: 7; color: rgb(0,128,0); font-size: 16pt;
+    margin-left: 15px}
+address {font-size: 8pt; text-align: center; font-family: Arial, Helvetica, sans-serif; font-variant: small-caps;
+         font-style: normal; color: rgb(0,128,0); border-top: 1px solid rgb(0,128,0); margin-top: 30px}

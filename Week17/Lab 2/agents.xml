@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<agents>
+   <agent id="a01" list="c001,c002,c004">
+      <first>Beverly</first>
+      <last>Kaufmann</last>
+      <amount>$325</amount>
+   </agent>
+   <agent id="a02" list="c003,c005, c006">
+      <first>Kevin</first>
+      <last>Yates</last>
+      <amount>$375</amount>
+   </agent>
+</agents>

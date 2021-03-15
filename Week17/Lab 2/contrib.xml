@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+   <contributions>
+      <contributor id="c001" agent="a01">
+         <first>David</first>
+         <last>Lee</last>
+         <address>
+            <street>212 West Advent St.</street>
+            <city>Cutler</city>
+            <state>MO</state>
+            <zip>32815</zip>
+            <phone>555-7812</phone>
+         </address>
+         <amount>$150</amount>
+      </contributor>
+      <contributor id="c002" agent="a01">
+         <first>Karen</first>
+         <last>Belaska</last>
+         <address>
+            <street>500 Maple Ln.</street>
+            <city>Cutler</city>
+            <state>MO</state>
+            <zip>32817</zip>
+            <phone>555-3219</phone>
+         </address>
+         <amount>$50</amount>
+      </contributor>
+      <contributor id="c003" agent="a02">
+         <first>Alice</first>
+         <last>Sanchez</last>
+         <address>
+            <street>5 North St.</street>
+            <city>Davidton</city>
+            <state>MO</state>
+            <zip>39810</zip>
+            <phone>555-0190</phone>
+         </address>
+         <amount>$225</amount>
+      </contributor>
+      <contributor id="c004" agent="a01">
+         <first>Allen</first>
+         <last>Chmurutra</last>
+         <address>
+            <street>400 Main St.</street>
+            <city>Davidton</city>
+            <state>MO</state>
+            <zip>39112</zip>
+            <phone>555-4388</phone>
+         </address>
+         <amount>$125</amount>
+      </contributor>
+      <contributor id="c005" agent="a02">
+         <first>Cynthia</first>
+         <last>Whyte</last>
+         <address>
+            <street>657 Hemisphere Dr.</street>
+            <city>Cutler</city>
+            <state>MO</state>
+            <zip>31287</zip>
+            <phone>555-0923</phone>
+         </address>
+         <amount>$50</amount>
+      </contributor>
+      <contributor id="c006" agent="a02">
+         <first>Alison</first>
+         <last>Heart</last>
+         <address>
+            <street>622 Hemisphere Dr.</street>
+            <city>Cutler</city>
+            <state>MO</state>
+            <zip>31287</zip>
+            <phone>555-0923</phone>
+         </address>
+         <amount>$100</amount>
+      </contributor>
+   </contributions>

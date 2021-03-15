@@ -1,0 +1,25 @@
+contributor 
+      {display: block; margin: 10px 0px 10px 30px; width: 600px;
+       border: 1px dashed black; padding: 5px; 
+       background-color: rgb(233,244,233)}
+
+first, last 
+      {font-weight: bold}
+
+address 
+      {display: block; margin-left: 10px}
+
+street 
+      {display: block}
+
+zip 
+      {padding-left: 5px}
+
+phone 
+      {display: block}
+
+amount 
+      {display: block}
+
+
+

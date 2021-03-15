@@ -1,0 +1,16 @@
+Play         {display: block; width: 680px; font-family: Times New Roman; 
+              font-size:12pt; border: 1px solid black; margin: 5px; padding: 15px}
+
+Summary      {display:block; text-align: justify}
+
+Title        {display: block; font-family: Arial, Helvetica, Sans-serif; 
+              font-size:24pt; color:blue; font-weight:bold; margin-bottom: 20px}
+
+Act          {display:block; margin-top: 20px}
+
+Act_Number   {font-weight:bold; color:blue; font-family:Arial, Helvetica, Sans-serif}
+
+Scene        {display:list-item; margin-left:15pt; list-style-type:square}
+
+Scene_Number {font-weight:bold}
+

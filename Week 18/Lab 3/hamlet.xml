@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="./plays.css" type="text/css"?>
+
+<!DOCTYPE Play [
+   <!ELEMENT Play (Title,Summary,Act+)>
+   <!ELEMENT Title (#PCDATA)>
+   <!ELEMENT Summary (#PCDATA)>
+   <!ELEMENT Act (Act_Number,Scene)>
+   <!ELEMENT Act_Number (#PCDATA)>
+   <!ELEMENT Scene (Location|Scene_Number)+>
+   <!ELEMENT Scene_Number (#PCDATA)>
+   <!ELEMENT Location (#PCDATA)>
+]>
+<!--Bajra Manandhar March 15-->
+<Play>
+   <Title>Hamlet</Title>
+   <Summary>One of the greatest plays ever written in the English language, Hamlet is the story of the
+   young Danish prince, Hamlet, who learns that his father was killed by his 
+   uncle and that the throne of Denmark is now held by this usurper and a murderer.Though filled with 
+   grief and the desire for revenge, Hamlet delays action until he is certain of his uncle's guilt. 
+   Hamlet hires a theater troupe to stage a play that re-enacts the events of his father's 
+   murder, hoping to determine the truth by watching the reaction of his uncle to the play. Hamlet's 
+   suspicions are confirmed when the king flees from the performance. As he moves to take revenge upon 
+   his uncle, Hamlet errs by killing the king's advisor, Polonius, and is banished from Denmark. Hamlet returns 
+   and kills the king, but he and his mother die by poison in the act. The play ends in tragedy but with 
+   the promise  of immortality for Hamlet through his soldier's funeral and the recording of his story 
+   by his friend Horatio.</Summary>
+
+   <Act>
+      <Act_Number>Act 1</Act_Number>
+      <Scene>
+         <Scene_Number>Scene i:</Scene_Number>
+         <Location>Elsinore. A platform before the castle.</Location>
+         <Scene_Number>Scene ii:</Scene_Number>
+         <Location>A room of state in the castle.</Location>
+         <Scene_Number>Scene iii:</Scene_Number>
+         <Location>A room in Polonius' house.</Location>
+         <Scene_Number>Scene iv:</Scene_Number>
+         <Location>The platform.</Location>
+         <Scene_Number>Scene v:</Scene_Number>
+         <Location> Another part of the platform.</Location>
+      </Scene>
+   </Act>
+   <Act>
+      <Act_Number>Act 2</Act_Number>
+      <Scene>
+         <Scene_Number>Scene i:</Scene_Number>
+         <Location>A room in POLONIUS' house.</Location>
+         <Scene_Number>Scene ii:</Scene_Number>
+         <Location>A room in the castle.</Location>
+      </Scene>
+   </Act>
+   <Act>
+      <Act_Number>Act 3</Act_Number>
+      <Scene>
+         <Scene_Number>Scene i:</Scene_Number>
+         <Location>A room in the castle.</Location>
+         <Scene_Number>Scene ii:</Scene_Number>
+         <Location>A hall in the castle.</Location>
+         <Scene_Number>Scene iii:</Scene_Number>
+         <Location>A room in the castle.</Location>
+         <Scene_Number>Scene iv:</Scene_Number>
+         <Location>The Queen's closet.</Location>
+      </Scene>
+   </Act>
+   <Act>
+      <Act_Number>Act 4</Act_Number>
+      <Scene>
+         <Scene_Number>Scene i:</Scene_Number>
+         <Location>A room in the castle.</Location>
+         <Scene_Number>Scene ii:</Scene_Number>
+         <Location>Another room in the castle.</Location>
+         <Scene_Number>Scene iii:</Scene_Number>
+         <Location>Another room in the castle.</Location>
+         <Scene_Number>Scene iv:</Scene_Number>
+         <Location>A plain in Denmark.</Location>
+         <Scene_Number>Scene V:</Scene_Number>
+         <Location>Elsinore. A room in the castle.</Location>
+         <Scene_Number>Scene vi:</Scene_Number>
+         <Location></Location>
+         <Scene_Number>Scene vii:</Scene_Number>
+         <Location>Another room in the castle.</Location>
+      </Scene>
+   </Act>
+   <Act>
+      <Act_Number>Act 5</Act_Number>
+      <Scene>
+         <Scene_Number>Scene i:</Scene_Number>
+         <Location>A churchyard.</Location>
+         <Scene_Number>Scene ii:</Scene_Number>
+         <Location> A hall in the castle.</Location>
+      </Scene>
+   </Act>
+</Play>

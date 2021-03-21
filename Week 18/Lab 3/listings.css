@@ -1,52 +1,64 @@
-/* Bajra amanandhar March 15 */
+/* Bajra manandhar March 15 2021*/
 
 @namespace list url(http://www.midwesthomes.com/listings);
 
-property 
-   {display: block; width: 300px; font-size: 9pt; padding: 10px; margin: 5px;
-    border: 1px solid black; background-color: ivory}
+property {
+  display: block;
+  width: 300px;
+  font-size: 9pt;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid black;
+  background-color: ivory;
+}
 
-address   
-   {display: block}
+address {
+  display: block;
+}
 
-street 
-   {display: block}
+street {
+  display: block;
+}
 
-price 
-   {display: block}
+price {
+  display: block;
+}
 
-description 
-   {display: block; border-top: 1px solid black; margin-top: 5px; padding: 5px;
-    background-color: white}
-
+description {
+  display: block;
+  border-top: 1px solid black;
+  margin-top: 5px;
+  padding: 5px;
+  background-color: white;
+}
 
 /* place namespace escape style below */
 list|property {
-   display: block;
-   width: 300px;
-   font-size: 9pt;
-   padding: 10px;
-   margin: 5px;
-   border: 1px solid black;
-   background-color: ivory
+  display: block;
+  width: 300px;
+  font-size: 9pt;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid black;
+  background-color: ivory;
 }
 
 list\:address {
-   display: block
+  display: block;
 }
 
 list\:street {
-   display: block
+  display: block;
 }
 
 list|price {
-   display: block
+  display: block;
 }
 
 list|description {
-   display: block;
-   border-top: 1px solid black;
-   margin-top: 5px;
-   padding: 5px;
-   background-color: white
+  display: block;
+  border-top: 1px solid black;
+  margin-top: 5px;
+  padding: 5px;
+  background-color: white;
 }

@@ -1,0 +1,16 @@
+<!ELEMENT ING (intro, colleges, demo)>
+<!ELEMENT intro (#PCDATA)>
+<!ELEMENT colleges (college+)>
+<!ELEMENT college (name, address?, phone*)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT demo (#PCDATA|msg|test)*>
+<!ELEMENT msg ANY>
+<!ELEMENT test EMPTY>
+
+<!ATTLIST ele_name att_name val_type status>
+<!ATTLIST intro int_type CDATA #FIXED "about">
+<!ATTLIST college c_id ID #REQUIRED loc CDATA #IMPLIED>
+<!ATTLIST phone type (primary | secondary) #IMPLIED>
+<!ATTLIST msg tok_type NMTOKEN #REQUIRED d_id IDREF #IMPLIED>

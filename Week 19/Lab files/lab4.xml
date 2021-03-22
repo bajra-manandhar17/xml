@@ -1,0 +1,33 @@
+<!DOCTYPE ING SYSTEM "lab4.dtd"[	
+	<!ENTITY ing "Innovate Nepal Group">
+]>
+
+<ING>
+    <intro int_type="about">
+        &ing; introduction here.
+    </intro>
+
+    <colleges>
+        <college c_id="c01" loc="kathmandu">
+            <name>Islington College</name>
+            <address>Kamalpokhari, Kathmandu</address>
+            <phone>4512929</phone>
+        </college>
+        <college c_id="c02">
+            <name>Itahari International College</name>
+            <phone>9869258083</phone>
+        </college>
+        <college c_id="c03" loc="kathmandu">
+            <name>Herald College</name>
+            <address>Handigaon, Kathmandu</address>
+            <phone type="primary">01-4010121</phone>
+            <phone type="secondary">01-4010120</phone>
+        </college>
+    </colleges>
+
+    <demo>
+        This is a demo
+        <msg tok_type="43:43-55" d_id="c02">Demo World</msg>
+		<test></test>
+    </demo>
+</ING>

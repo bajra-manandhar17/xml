@@ -8,8 +8,8 @@
    <!ELEMENT Act (Act_Number,Scene)>
    <!ELEMENT Act_Number (#PCDATA)>
    <!ELEMENT Scene (Location|Scene_Number)+>
-   <!ELEMENT Scene_Number (#PCDATA)>
    <!ELEMENT Location (#PCDATA)>
+   <!ELEMENT Scene_Number (#PCDATA)>
 ]>
 <!--Bajra Manandhar March 15 2021-->
 <Play>

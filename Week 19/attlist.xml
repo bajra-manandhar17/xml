@@ -1,0 +1,27 @@
+<!DOCTYPE employees [
+   <!ELEMENT employees (employee+)>
+   <!ELEMENT employee (name,department,address?,phone*)>
+   <!ATTLIST employee employeeType CDATA #IMPLIED>
+   <!-- <!ATTLIST employee employeeType (PartTime|FullTime) #REQUIRED> -->
+   <!-- <!ATTLIST employee employeeType CDATA #REQUIRED> -->
+   <!-- <!ATTLIST employee employeeType CDATA "Full Time"> -->
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT department (#PCDATA)>
+   <!ELEMENT address (#PCDATA)>
+   <!ELEMENT phone (#PCDATA)>
+]>
+
+<employees>
+   <employee employeeType="Part Time">
+      <name>Bajra Manandhar</name>
+      <department>IT Department</department>
+      <address>Ghar</address>
+   </employee>
+
+   <employee>
+      <name>Shubigyan Adhikari</name>
+      <department>Business Department</department>
+      <phone>1234567</phone>
+      <phone>67888956</phone>
+   </employee>
+</employees>

@@ -31,12 +31,20 @@
       <Scene>
          <Scene_Number>Scene i:</Scene_Number>
          <Location>Elsinore. A platform before the castle.</Location>
+      </Scene>
+      <Scene>
          <Scene_Number>Scene ii:</Scene_Number>
          <Location>A room of state in the castle.</Location>
+      </Scene>
+      <Scene>
          <Scene_Number>Scene iii:</Scene_Number>
          <Location>A room in Polonius' house.</Location>
+      </Scene>
+      <Scene>
          <Scene_Number>Scene iv:</Scene_Number>
          <Location>The platform.</Location>
+      </Scene>
+      <Scene>
          <Scene_Number>Scene v:</Scene_Number>
          <Location> Another part of the platform.</Location>
       </Scene>
@@ -46,6 +54,8 @@
       <Scene>
          <Scene_Number>Scene i:</Scene_Number>
          <Location>A room in POLONIUS' house.</Location>
+      </Scene>
+      <Scene>
          <Scene_Number>Scene ii:</Scene_Number>
          <Location>A room in the castle.</Location>
       </Scene>
@@ -55,10 +65,16 @@
       <Scene>
          <Scene_Number>Scene i:</Scene_Number>
          <Location>A room in the castle.</Location>
+      </Scene>
+      <Scene>
          <Scene_Number>Scene ii:</Scene_Number>
          <Location>A hall in the castle.</Location>
+      </Scene>
+      <Scene>
          <Scene_Number>Scene iii:</Scene_Number>
          <Location>A room in the castle.</Location>
+      </Scene>
+      <Scene>
          <Scene_Number>Scene iv:</Scene_Number>
          <Location>The Queen's closet.</Location>
       </Scene>
@@ -68,16 +84,28 @@
       <Scene>
          <Scene_Number>Scene i:</Scene_Number>
          <Location>A room in the castle.</Location>
+      </Scene>
+      <Scene>
          <Scene_Number>Scene ii:</Scene_Number>
          <Location>Another room in the castle.</Location>
+      </Scene>
+      <Scene>
          <Scene_Number>Scene iii:</Scene_Number>
          <Location>Another room in the castle.</Location>
+      </Scene>
+      <Scene>
          <Scene_Number>Scene iv:</Scene_Number>
          <Location>A plain in Denmark.</Location>
+      </Scene>
+      <Scene>
          <Scene_Number>Scene V:</Scene_Number>
          <Location>Elsinore. A room in the castle.</Location>
+      </Scene>
+      <Scene>
          <Scene_Number>Scene vi:</Scene_Number>
-         <Location></Location>
+         <Location>Another room in the castle.</Location>
+      </Scene>
+      <Scene>
          <Scene_Number>Scene vii:</Scene_Number>
          <Location>Another room in the castle.</Location>
       </Scene>
@@ -87,6 +115,8 @@
       <Scene>
          <Scene_Number>Scene i:</Scene_Number>
          <Location>A churchyard.</Location>
+      </Scene>
+      <Scene>
          <Scene_Number>Scene ii:</Scene_Number>
          <Location> A hall in the castle.</Location>
       </Scene>

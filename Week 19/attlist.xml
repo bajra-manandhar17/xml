@@ -9,13 +9,25 @@
    <!ELEMENT department (#PCDATA)>
    <!ELEMENT address (#PCDATA)>
    <!ELEMENT phone (#PCDATA)>
+   <!ENTITY loc "Kathmandu, Nepal">
+   <!-- Parameter Entity Reference: Combining Two Files
+   <!ENTITY %employee SYSTEM "employees.dtd"> 
+   <!ENTITY %rest SYSTEM "rest.dtd">
+   %employee; 
+   %rest;-->
 ]>
 
 <employees>
    <employee employeeType="Part Time">
       <name>Bajra Manandhar</name>
       <department>IT Department</department>
-      <address>Ghar</address>
+      <address>Ghar &loc;</address>
+   </employee>
+
+   <employee employeeType="Part Time">
+      <name>FirstName LastName</name>
+      <department>Finance Department</department>
+      <address>Kamalpokhari</address>
    </employee>
 
    <employee>

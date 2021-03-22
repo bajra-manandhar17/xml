@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE customers [
+   <!ELEMENT customers (customer+)>
+   <!ELEMENT customer (name,address,phone,email,orders)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT address (#PCDATA)>
+   <!ELEMENT phone (#PCDATA)>
+   <!ELEMENT email (#PCDATA)>
+   <!ELEMENT orders (order+)>
+   <!ELEMENT order (orderDate,items*)>
+   <!ELEMENT orderDate (#PCDATA)>
+   <!ELEMENT items (#PCDATA)>
+   
+
+   <!ENTITY DCT5Z "Tapan Digital Camera5 Mpx - zoom">
+   <!ENTITY SM128 "SmartMedia 128mb Card">
+   <!ENTITY RCL "Rechargeable Lithum Ion Battery">
+   <!ENTITY BCE4L "Battery Charger 4pt Lithum">
+   <!ENTITY WBC500 "WebNow Webcam 500">
+   <!ENTITY RCA "Rechargeable Alkaline Battery">
+   <!ENTITY SCL4C "Linton Flatbed Scanner 4C">
+
+]>
+
+<customers>
+   <customer custID="cust201" custType="home">
+      <name title="Mr.">David Lynn</name>
+      <address>
+         211 Fox Street
+         Greenville, NH 80021
+      </address>
+      <phone>(315) 555-1812</phone>
+      <email>dlynn@nhs.net</email>
+      <orders>
+         <order orderID="or10311" orderBy="cust201">
+            <orderDate>8/1/2008</orderDate>
+            <items>
+               <item itemPrice="$599.95">&DCT5Z;</item>
+               <item itemPrice="199.95">&SM128;</item>
+               <item itemPrice="29.95" itemQty="2">&RCL;</item>
+            </items>
+         </order>
+         <order orderID="or11424" orderBy="cust201">
+            <orderDate>9/14/2008</orderDate>
+            <items>
+               <item itemPrice="59.95">&BCE4L;</item>
+            </items>
+         </order>
+      </orders>
+   </customer>
+
+   <customer custID="cust202" custType="business">
+      <name title="Mrs.">Jean Kaufmann</name>
+      <address>
+         411 East Oak Avenue
+         Cashton, MI  20401
+      </address>
+      <phone>(611) 555-4033</phone>
+      <email>JKaufmann@cshweb.com</email>
+      <orders>
+         <order orderID="or10899" orderBy="cust202">
+            <orderDate>8/11/2008</orderDate>
+            <items>
+               <item itemPrice="59.99">&WBC500;</item>
+               <item itemPrice="5.95" itemQty="2">&RCA;</item>
+            </items>
+         </order>
+      </orders>
+   </customer>
+
+   <customer custID="cust203" custType="business">
+      <name>AdServices</name>
+      <address>
+         55 Washburn Lane
+         Creighton, UT  98712
+      </address>
+      <phone>(811) 555-2987</phone>
+      <orders>
+         <order orderID="or11201" orderBy="cust203">
+            <orderDate>9/15/2008</orderDate>
+            <items>
+               <item itemPrice="179.99" itemQty="3">&SCL4C;</item>
+            </items>
+         </order>
+      </orders>
+   </customer>
+</customers>
